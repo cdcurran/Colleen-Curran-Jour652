@@ -1,3 +1,5 @@
+/*styles for my resume */
+
 body{
   font-family: 'Open Sans', sans-serif;
   font-size: 12px;
@@ -15,4 +17,20 @@ h2{
   color background: #33485e;
   color: white;
   strong: 400;
+}
+h3{
+  strong:600;
+  font-size: 1.5em;
+}
+h4{
+  strong:400;
+  font-size: 1.5em;
+}
+h5{
+  strong:400;
+  font-size: 1em;
+  font-style: italic;
+}
+li{
+  font-size: 1em;
 }
