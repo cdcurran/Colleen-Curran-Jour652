@@ -25,11 +25,13 @@ body{
   width: 70%;
   min-width: 300px;
 }
-strong {
+#title {
   color:#33485e;
   text-transform: uppercase;
   text-align:center;
   font-size:1.5em;
+  font-weight: 600;
+  margin: 20px 0 0 0;
 }
 
 .jobtitle {
@@ -50,11 +52,34 @@ strong {
   font-style: italic;
   margin: 2px 0 0 0;
 }
+
 .description{
-  margin: 10px 0
+  margin: 10px 0 10px 0;
+}
+.menu{
+  margin: 0;
+  padding:0;
+  text-align: center;
+}
+.menu li{
+  display: inline;
 }
 
-}
 li{
   font-size: 1em;
+}
+
+#degrees{
+  margin: 5px 0 0 0;
+}
+
+#do {
+  margin: 5px 0 0 0;
+}
+
+.top{
+  width: 60%;
+  min-width: 300x;
+  margin: 0 auto;
+  margin-bottom: 30px;
 }
