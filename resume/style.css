@@ -2,9 +2,16 @@
 
 body{
   font-family: 'Open Sans', arial, sans-serif;
-  font-size: 12px;
-  color: #444;
 }
+
+/*Main Page Container*/
+#container {
+  width:100%;
+  max-width:1200px;
+  margin: 0 auto;
+  padding-bottom:50px;
+}
+/*Title-Name*/
 #name {
   font-size:3em;
   text-transform: uppercase;
@@ -15,6 +22,8 @@ body{
   min-width: 300px;
   margin: 0 auto;
 }
+
+/*Section Titles*/
 .sectionheader{
   font-size: 1.5em;
   text-transform: uppercase;
@@ -25,6 +34,7 @@ body{
   width: 70%;
   min-width: 300px;
 }
+
 #title {
   color:#33485e;
   text-transform: uppercase;
@@ -34,11 +44,14 @@ body{
   margin: 20px 0 0 0;
 }
 
+/*Jobs*/
 .jobtitle {
   font-weight: :600;
   font-size: 1.5em;
 }
 
+
+/*Job Location*/
 .organization {
   font-weight: :400;
   font-size: 1.25em;
@@ -46,6 +59,7 @@ body{
   font-size:1.25em;
 }
 
+/*Dates I worked there*/
 .date{
   font-weight: :400;
   font-size: 1em;
@@ -53,26 +67,28 @@ body{
   margin: 2px 0 0 0;
 }
 
+/*Mission @ top of screen*/
 .description{
   margin: 10px 0 10px 0;
 }
+
+/*Contact Info*/
 .menu{
   margin: 0;
   padding:0;
   text-align: center;
 }
+/*Contact Deets*/
 .menu li{
   display: inline;
 }
 
-li{
-  font-size: 1em;
-}
-
+/*Edu*/
 #degrees{
   margin: 5px 0 0 0;
 }
 
+/*Skills*/
 #do {
   margin: 5px 0 0 0;
 }
@@ -83,3 +99,6 @@ li{
   margin: 0 auto;
   margin-bottom: 30px;
 }
+
+li {
+  font-size:1em;
