@@ -30,27 +30,30 @@ strong {
   text-transform: uppercase;
   text-align:center;
   font-size:1.5em;
+}
 
 .jobtitle {
   font-weight: :600;
   font-size: 1.5em;
+}
 
 .organization {
-    font-weight: 400;
-    font-size:1.25em;
+  font-weight: :400;
+  font-size: 1.25em;
+  font-weight: 400;
+  font-size:1.25em;
 }
 
 .date{
-  
-}
-h4{
-  font-weight: :400;
-  font-size: 1.25em;
-}
-h5{
   font-weight: :400;
   font-size: 1em;
   font-style: italic;
+  margin: 2px 0 0 0;
+}
+.description{
+  margin: 10px 0
+}
+
 }
 li{
   font-size: 1em;
