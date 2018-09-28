@@ -33,6 +33,7 @@ body{
   margin: 20px 0 10px 0;
   width: 70%;
   min-width: 300px;
+  padding-left:20px;
 }
 
 #title {
@@ -55,8 +56,6 @@ body{
 .organization {
   font-weight: :400;
   font-size: 1.25em;
-  font-weight: 400;
-  font-size:1.25em;
 }
 
 /*Dates I worked there*/
