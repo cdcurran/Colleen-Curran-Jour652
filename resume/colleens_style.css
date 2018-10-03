@@ -11,10 +11,6 @@
     background-size: cover;
     position: relative;
 }
-
-
-
-
 .jumbotron{
   background-color: #7ca3b8;
   color: #091b2c;
@@ -28,4 +24,7 @@
 .lead{
   text-align:center;
   color:#091b2c;
+}
+.col-3{
+    text-align:center;
 }
