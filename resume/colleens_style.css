@@ -13,10 +13,11 @@
   background-color: #7ca3b8;
 }
 
-.jumbotron{
+.jumbotron jumbotron-fluid{
   text-align: center;
   width:1000px !important;
   height:400px !important;
+  padding: 0 0 0 0 !important;
 }
 .display-4{
   color:#091b2c
