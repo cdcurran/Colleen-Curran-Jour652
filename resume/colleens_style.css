@@ -15,6 +15,8 @@
 
 .jumbotron jumbotron-fluid{
   padding: 0 0 0 0 !important;
+  width: 1000 px; 
+  height: 800 px;
 }
 .display-4{
   color:#091b2c
