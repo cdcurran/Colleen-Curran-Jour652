@@ -11,13 +11,13 @@
 
 /*Navbar colors*/
 .navbarSupportedContent{
-  color:#820c1f;
+  color:#820c1f !important;
 }
 .nav-link{
-  color:#820c1f;
+  color:#820c1f !important;
 }
 .btn btn-outline-success my-2 my-sm-0{
-  color:#820c1f;
+  color:#820c1f !important;
 }
 /*end Navbar colors*/
 
