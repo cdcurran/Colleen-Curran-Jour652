@@ -37,7 +37,7 @@
   color:#091b2c;
 }
 
-.top{
+.about{
   text-align: center;
 }
 
@@ -52,4 +52,9 @@
   padding-top: 30px;
   padding-bottom: 30px;
   background-color: #7ca3b8;
+}
+
+#degrees{
+  color:#091b2c;
+  text-align: center;
 }
