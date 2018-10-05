@@ -14,10 +14,10 @@
 }
 
 .jumbotron jumbotron-fluid{
-  src:url(Banner_Curran.jpg);
+  src:url(Banner_Curran.jpg)!important;
   padding: 0 0 0 0 !important;
-  width: 1000 px !important;
-  height: 700 px!important;
+  width: 1000 px;
+  height: 700 px;
 }
 .display-4{
   color:#091b2c
