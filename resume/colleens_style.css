@@ -16,7 +16,7 @@
 .nav-link{
   color:#820c1f !important;
 }
-.btn btn-outline-success my-2 my-sm-0{
+.btnbtn-outline-successmy-2 my-sm-0{
   color:#820c1f !important;
 }
 /*end Navbar colors*/
@@ -25,7 +25,6 @@
 
 .jumbotronjumbotron-fluid{
   background-size: auto 100% !important;
-  padding: 0 0 0 0;
 }
 
 
