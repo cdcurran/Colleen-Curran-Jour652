@@ -27,23 +27,20 @@
   background-size: auto 100% !important;
   padding: 0 0 0 0;
 }
-.display-4{
-  color:#091b2c
-  text-align:center;
-  font-family: 'Krub', sans-serif;
-}
-.lead{
-  text-align:center;
-  color:#091b2c;
-}
+
 
 .about{
   text-align: center;
+  color:#091b2c;
 }
 
 .col-3{
     text-align:center;
     padding-bottom: 75px;
+}
+
+#jobs{
+  color:#091b2c;
 }
 
 #sections{
