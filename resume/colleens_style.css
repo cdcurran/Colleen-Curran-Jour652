@@ -1,7 +1,27 @@
+.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
 
-.navbar{
-  background-color: #7ca3b8;
+  > .col,
+  > [class*="col-"] {
+    padding-right: 0;
+    padding-left: 0;
+  }
 }
+
+/*Navbar colors*/
+.navbarSupportedContent{
+  color:#820c1f;
+}
+.nav-link{
+  color:#820c1f;
+}
+.btn btn-outline-success my-2 my-sm-0{
+  color:#820c1f;
+}
+/*end Navbar colors*/
+
+
 
 .jumbotron jumbotron-fluid{
   background-size: auto 100% !important;
@@ -26,7 +46,7 @@
     padding-bottom: 75px;
 }
 
-.sections{
+#sections{
   text-align:center;
   color: white;
   padding-top: 30px;
