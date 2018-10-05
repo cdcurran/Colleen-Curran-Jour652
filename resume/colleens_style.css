@@ -16,8 +16,8 @@
 .jumbotron{
   background-color: #7ca3b8 !important;
   padding: 0 0 0 0 !important;
-  width:800px !important;
-  height:400px !important;
+  max-width: 100% !important;
+  height: 400px !important;
 }
 .display-4{
   color:#091b2c
