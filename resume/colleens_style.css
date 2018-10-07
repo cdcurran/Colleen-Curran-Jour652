@@ -1,14 +1,3 @@
-.no-gutters {
-  margin-right: 0;
-  margin-left: 0;
-
-  > .col,
-  > [class*="col-"] {
-    padding-right: 0;
-    padding-left: 0;
-  }
-}
-
 /*Navbar colors*/
 .navbarSupportedContent{
   color:#820c1f !important;
@@ -18,40 +7,38 @@
 }
 /*end Navbar colors*/
 
+
+/*Header*/
 .sectionheader{
   margin-bottom: 15px;
 }
+/*end header*/
 
+
+/*Info & About Links*/
+#links{
+    text-align:center;
+    padding-bottom: 75px;
+}
+#about{
+  text-align:center;
+  padding-top:20px;
+  padding-bottom: 50px;
+}
+/*End Info & About Links*/
+
+/*Work Experience*/
 #info{
   text-align: center;
   color:#091b2c;
   padding-top:20px;
   padding-bottom: 50px;
 }
+/*End work experience*/
 
-#about{
-  text-align:center;
-  padding-top:20px;
-  padding-bottom: 50px;
-}
-
-
-.col-3{
-    text-align:center;
-    padding-bottom: 75px;
-}
-
-
-
-#sections{
-  text-align:center;
-  color: white;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  background-color: #7ca3b8;
-}
-
+/*Education Section*/
 #degrees{
   color:#091b2c;
   text-align: center;
 }
+/*End Education Section*/
