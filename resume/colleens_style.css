@@ -18,7 +18,9 @@
 }
 /*end Navbar colors*/
 
-
+.sectionheader{
+  margin-bottom: 15px;
+}
 
 .about{
   text-align: center;
