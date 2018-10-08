@@ -38,8 +38,6 @@
   padding-top:20px;
   padding-bottom: 50px;
 }
-
-
 /*End work experience*/
 
 /*Education Section*/
@@ -68,3 +66,9 @@
   color:#820c1f;
 }
 /*end Skills section*/
+
+/*Footer*/
+#copyright{
+  text-align: justify;
+}
+/*End Footer*/
