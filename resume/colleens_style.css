@@ -16,6 +16,10 @@
 
 
 /*Info & About Links*/
+.blockquote{
+  font-size: inherit;
+  line-height: inherit;
+}
 #links{
     text-align:center;
     padding-bottom: 75px;
