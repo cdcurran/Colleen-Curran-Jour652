@@ -29,6 +29,9 @@
   padding-top:20px;
   padding-bottom: 50px;
 }
+#carousel{
+  width:inherit;
+}
 /*End Info & About Links*/
 
 /*Work Experience*/
