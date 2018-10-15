@@ -30,8 +30,9 @@
   padding-bottom: 50px;
 }
 #carousel{
-  width:50%;
-  height:auto;
+  width:200px;
+  height:350px;
+  margin: auto;
 }
 /*End Info & About Links*/
 
