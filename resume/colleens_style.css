@@ -44,7 +44,6 @@
   padding-bottom: 40px;
   font-size: 28px;
   font-family: 'Montserrat', sans-serif;
-  border-style: inset;
 }
 /*End Info & About Links*/
 
@@ -62,6 +61,9 @@
   color:#091b2c;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
+}
+.double{
+  border-style: double;
 }
 /*End Education Section*/
 
