@@ -19,6 +19,7 @@
 .blockquote{
   font-size: inherit;
   line-height: inherit;
+  font-family: 'Montserrat', sans-serif;
 }
 #links{
     text-align:center;
@@ -42,6 +43,7 @@
   text-align:center;
   padding-bottom: 40px;
   font-size: 28px;
+  font-family: 'Montserrat', sans-serif;
 }
 /*End Info & About Links*/
 
@@ -58,14 +60,21 @@
 #degrees{
   color:#091b2c;
   text-align: center;
+  font-family: 'Montserrat', sans-serif;
 }
 /*End Education Section*/
 
+/*Work*/
+#jobs{
+  font-family: 'Montserrat', sans-serif;
+}
+/*end work*/
 
 /*Skills Section*/
 #skills{
   text-align: left;
   color:#091b2c;
+  font-family: 'Montserrat', sans-serif;
 }
 /*end Skills section*/
 
