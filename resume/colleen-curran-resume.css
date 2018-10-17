@@ -11,8 +11,6 @@
 /*Header*/
 .sectionheader{
   margin-bottom: 15px;
-  @media screen and (max-width: 800px){.Banner_Curran.jpg{width:100%}
-}
 }
 /*end header*/
 
