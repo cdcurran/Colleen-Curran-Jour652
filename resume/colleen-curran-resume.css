@@ -9,9 +9,9 @@
 
 
 /*Header*/
-.sectionheader{
+.jumbotron{
+  background: url('Banner_Curran.jpg');
   margin-bottom: 15px;
-  width: 100% !important;
 }
 /*end header*/
 
