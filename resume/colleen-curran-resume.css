@@ -9,9 +9,9 @@
 
 
 /*Header*/
-.jumbotron{
+.sectionheader{
   margin-bottom: 15px;
-  padding: 0%
+  width: 100% !important;
 }
 /*end header*/
 
