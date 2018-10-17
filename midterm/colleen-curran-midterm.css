@@ -1,0 +1,41 @@
+/*This is the Headline and byline section*/
+.headline{
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+}
+#byline{
+  font-family:helvetica, arial, sans-serif;
+  font-size: 14px;
+}
+/*This is the subheading grouping*/
+.subheading{
+  font-family: "Times New Roman", Times, serif;
+  font-size: 18px;
+}
+.body{
+  font-family: helvetica, arial, sans-serif;
+  font-size:12px;
+}
+#caption{
+  font-family:arial, sans-serif;
+  font-size: 10px;
+}
+#column{
+  text-align: center
+}
+.burner{
+  font-family: helvetica,arial, sans-serif;
+  font-size:16px;
+}
+.list{
+  font-family: helvetica,arial, sans-serif;
+}
+.blockquote{
+  color:orange;
+  font-family: helvetica,arial, sans-serif;
+  display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 40px;
+    margin-right: 40px;
+}
