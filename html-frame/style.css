@@ -10,11 +10,17 @@ font-size: 12px;
   margin:0 auto;
   width:500px;
   height: 500px;
+  padding-top: 15px;
+}
+.caption{
+font-size:
+
 }
 .footer{
   background-color: black;
   color: white;
 }
 #columns{
-  text-align: left;
+  text-align: center;
+  padding-bottom: 25px;
 }
