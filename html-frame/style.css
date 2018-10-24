@@ -9,22 +9,21 @@ font-size: 12px;
 
 .text{
   font-family: times, serif;
+  padding-top: 5px;
 }
 .img{
   margin:0 auto;
   width:500px;
   height: 500px;
   padding-top: 15px;
+color: grey;
 }
-.caption{
-color: gray;
 
-}
 .footer{
   background-color: black;
   color: white;
 }
 #columns{
   text-align: center;
-  padding-bottom: 25px;
+  padding-bottom: 40px;
 }
