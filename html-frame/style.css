@@ -6,6 +6,10 @@
 .byline{
 font-size: 12px;
 }
+
+.text{
+  font-family: times, serif;
+}
 .img{
   margin:0 auto;
   width:500px;
@@ -13,7 +17,7 @@ font-size: 12px;
   padding-top: 15px;
 }
 .caption{
-font-size:
+color: gray;
 
 }
 .footer{
