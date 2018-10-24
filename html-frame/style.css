@@ -9,6 +9,10 @@
   text-align: center;
 }
 
+.byline{
+  margin:0 auto;
+}
+
 .img{
   margin:0 auto;
   width:500px;
