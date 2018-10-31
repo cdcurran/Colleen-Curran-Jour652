@@ -1,0 +1,29 @@
+#container{
+  max-width: 1000px;
+  width: 100%;
+  margin:0 auto;
+}
+.byline{
+font-size: 12px;
+}
+
+.text{
+  font-family: times, serif;
+  padding-top: 5px;
+}
+.img{
+  margin:0 auto;
+  width:500px;
+  height: 500px;
+  padding-top: 15px;
+color: grey;
+}
+
+.footer{
+  background-color: black;
+  color: white;
+}
+#columns{
+  text-align: center;
+  padding-bottom: 40px;
+}
