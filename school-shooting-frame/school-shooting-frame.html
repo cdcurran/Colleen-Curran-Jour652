@@ -133,12 +133,15 @@
         <img src="IMAGES/star-red.png" class="star-intro"><strong>The carnage of school shootings</stong></div>
 <a name ="The Carnage"></a><p>131 people have been killed in school shooting incidents in the United States since the Columbine massacre in 1999. The two deadliest years since have been 2012, when 26 people were killed at Sandy Hook Elementary School, and 2018, when 21 people were killed at Parkland High School. The chart below compared the number of people killed, the number of the people injured and the number of incidents by year since 1999.</p>
 
+
+<!--Examining the carnage line graph-->
 <div class="graphic-container">
-  <h2>How often were resource officers present?</h2>
-  <p>School resource officers were commonly not present at the scene of school shooting incidents.</p>
-  <div id="resourceOfficersChart"></div>
+    <h2><strong>Examining the carnage</strong></h2>
+        <p>2012 was the deadliest year this century, with 32 fatalities. Incidents occured at Sandy Hook Elementary School in Newtown, Conn and Oikos University in Oakland, Calif. that year.</p>
+    <div id="examiningthecarnage"></div>
   <em>Source: Data collected by The Washington Post</em>
 </div>
+<!--end line graph-->
 
 <p>A school resource officer was not present at the vast majority of school shooting incidents. According to the Washington Post data, officers were present in only 35 percent of incidents.</p>
 
@@ -177,7 +180,12 @@
 
 <!--shooting by type bar graph-->
 
-
+<div class="graphic-container">
+    <h2>What race are school shooters likely to be?</h2>
+    <p>55 percent of school shooters are white</p>
+    <div id="shooterrace"></div>
+    <em>Source: Data collected by The Washington Post</em>
+  </div>
 
 
 <!--end bar graph-->
@@ -196,8 +204,18 @@
 
 
 <!--about the data-->
+<div class="data">
+<h3>About the data</h3>
 
+<p>
+School shooting data is surprisingly messy and hard to come by. There are few government or academic studies on the subject and those that do exist are mostly outdated. Further, school shooting data tends to be messy and hard to deal with. According to <a href="https://www.theatlantic.com/education/archive/2018/02/another-school-shootingbut-whos-counting/553412/">The Atlantic</a>, the parameters of school shooting incidents makes data inconsistent.</p>
 
+<a href="https://github.com/washingtonpost/data-school-shootings">Washington Post School Schooting Data</a><br></br>
+<a href="https://github.com/StanfordGeospatialCenter/MSA">Stanford Mass Shootings in America Data</a><br></br>
+<a href= "https://www.theatlantic.com/education/archive/2018/02/another-school-shootingbut-whos-counting/553412/">Why school shooting data is messy</a><br></br>
+<a href="https://www2.ed.gov/admins/lead/safety/preventingattacksreport.pdf">
+Implications for the Prevention of School Attacks in the United States</a><br></br>
+</div>
 
 <div class="stack-image">
         <img src="IMAGES/joaquin-oliver.png" alt="Joaquin Oliver">
@@ -260,6 +278,23 @@
    }
   });
 
+  //LineGraph#2
+  var chart = c3.generate({
+   bindto: '#examiningthecarnage',
+   data: {
+     x: 'x',
+     columns: [
+       ['x', 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018],
+       ['Killed', 15, 5, 6, 3, 5, 4, 10, 10, 2, 5, 3, 4, 3, 35, 4, 6, 2, 5, 7, 25],
+       ['Injured', 35, 4, 24, 7, 7, 10, 20, 18, 20, 7, 6, 8, 10, 8, 15, 20, 5, 20, 16, 49],
+       ['Number of Incidents', 7, 13, 14, 5, 12, 10, 14, 15, 10, 9, 9, 9, 6, 14, 15, 20, 10, 14, 15, 11],
+     ]
+   },
+   color: {
+     pattern: ['#2a8dc5', '#455380', '#ee6a4b', '#60c4b2', '#973895']
+   }
+  });
+
 
   //CHART 2
    var chart2 = c3.generate({
@@ -282,6 +317,30 @@
        pattern: ['#2a8dc5', '#455380', '#ee6a4b', '#60c4b2', '#973895', '#fae255', '#af3d46', '#f8bb63', '#818281']
      }
    });
+
+
+//donut pie chart
+   var chart = c3.generate({
+     bindto: '#shooterrace',
+    data: {
+        columns: [
+            ['Asian',1 ],
+            ['American Indian',3],
+            ['Black', 33],
+            ['Hispanic',8],
+            ['White', 55],
+        ],
+        type : 'donut',
+        onclick: function (d, i) { console.log("onclick", d, i); },
+        onmouseover: function (d, i) { console.log("onmouseover", d, i); },
+        onmouseout: function (d, i) { console.log("onmouseout", d, i); }
+    },
+    donut: {
+        title: "Shooters by race"
+    }
+});
+
+
   </script>
 
 </body>
