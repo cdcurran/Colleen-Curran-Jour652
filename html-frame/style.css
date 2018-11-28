@@ -5,7 +5,16 @@
 }
 
 .hero{
-  
+  width: 100%;
+  text-align:center;
+}
+
+.hero-image{
+  width: 100%;
+  max-width: inherit;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 .byline{
 font-size: 12px;
