@@ -304,25 +304,18 @@
       bindto: '#pgcenrollment',
       data: {
         columns: [
-          ['American Indian/Alaska Native - male', 230],
-          ['American Indian/Alaska Native - female', 221],
-          ['Asian or Asian/Pacific Islander - male', 1872],
-          ['Asian or Asian/Pacific Islander - female', 1716],
-          ['Hispanic - male', 19762],
-          ['Hispanic - female', 18369],
-          ['Black - male', 40290],
-          ['Black - female ', 38839],
-          ['White - male',2841],
-          ['White - female',2604],
-          ['Hawaiian Nat./Pacific Isl. - male',144],
-          ['Hawaiian Nat./Pacific Isl. - female',128],
-          ['Two or More Races - male',928],
-          ['Two or More Races - female', 978]
+          ['American Indian/Alaska Native', 451],
+          ['Asian or Asian/Pacific Islander', 3588],
+          ['Hispanic', 38131],
+          ['Black', 79129],
+          ['White',5445],
+          ['Hawaiian Nat./Pacific Isl.',272],
+          ['Two or More Races',1906]
         ],
         type: 'bar'
       },
       color: {
-        pattern: ['#2a8dc5', '#455380', '#ee6a4b', '#60c4b2', '#973895', '#fae255', '#af3d46', '#f8bb63', '#818281']
+        pattern: ['#7e0518', '#575858', '#1b2f61', '#8f9090', '#a13d4e', '#050303', '#0f34bd', '#bcbcbd', '#6a7fcf']
       }
     });
 
@@ -347,7 +340,7 @@
      onmouseout: function (d, i) { console.log("onmouseout", d, i); }
     },
     color: {
-     pattern: ['#2a8dc5', '#455380', '#ee6a4b', '#60c4b2', '#973895']
+     pattern: ['#7e0518', '#575858', '#1b2f61', '#8f9090', '#a13d4e']
     }
     });
 
@@ -407,7 +400,10 @@
                 ['x', 'New York', 'Illinoise', 'Maryland', 'Michigan', 'New Jersey', 'Pennsylvania', 'Mississippi', 'California', 'Tennessee', 'Wisconsin', 'Texas', 'Georgia'],
                 ['% Black students in 90-100% Minority Schools, 2011-2012', 64.6, 61.3, 53.1, 50.4, 48.5, 46.0, 45.3, 45.3, 44.8, 43.4, 42.7, 42.0],
             ],
-            type: 'bar'
+            type: 'bar',
+            color: {
+            x: '#1b2f61'
+        },
         },
         axis: {
             x: {
@@ -434,9 +430,11 @@
            ]
          },
          color: {
-           pattern: ['#2a8dc5', '#455380', '#ee6a4b', '#60c4b2', '#973895']
+           pattern: ['#7e0518', '#575858', '#1b2f61']
          }
        });
+
+
 
 </script>
 
