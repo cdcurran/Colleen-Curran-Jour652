@@ -31,9 +31,19 @@
   height:500px;
 }
 
+.image{
+  position:absolute;
+  z-index: -1;
+}
+
 
 .byline{
 font-size: 12px;
+}
+
+.toptext{
+  color:white;
+  padding-top: 250px;
 }
 
 .text{
@@ -45,8 +55,8 @@ font-size: 12px;
 .chart{
   max-width: 800px;
   margin:auto;
-  margin-top: 25px;
-  margin-bottom: 25px;
+  margin-top: 50px;
+  margin-bottom: 10px;
 }
 
 .img{
