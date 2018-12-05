@@ -42,8 +42,8 @@ font-size: 12px;
 }
 
 .toptext{
+  position: absolute;
   color:white;
-  padding-top: 250px;
 }
 
 .text{
@@ -55,8 +55,16 @@ font-size: 12px;
 .chart{
   max-width: 800px;
   margin:auto;
-  margin-top: 50px;
+  margin-top: 25px;
   margin-bottom: 10px;
+}
+
+.chart2{
+  max-width: 800px;
+  margin:auto;
+  margin-top: 500px;
+  margin-bottom: 10px;
+}
 }
 
 .img{
