@@ -26,6 +26,11 @@
   text-align: center;
 }
 
+.full-width{
+  width: 100%;
+  height:500px;
+}
+
 
 .byline{
 font-size: 12px;
