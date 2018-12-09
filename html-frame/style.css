@@ -17,7 +17,6 @@
   text-align: center;
 }
 
-
 .intro-photo{
   width: 100%;
   max-width: inherit;
@@ -31,9 +30,8 @@
   height:500px;
 }
 
-.image{
-  position:absolute;
-  z-index: -1;
+.text{
+  font-family: "century gothic", sans-serif;;
 }
 
 
@@ -41,28 +39,18 @@
 font-size: 12px;
 }
 
-.toptext{
-  position: absolute;
-  color:white;
-}
-
-.text{
-  font-family: 'century gothic', sans-Serif;
-  padding-top: 5px;
-  text-align: justify;
-}
 
 .chart{
-  max-width: 800px;
+  max-width: 600px;
   margin:auto;
   margin-top: 25px;
   margin-bottom: 10px;
 }
 
 .chart2{
-  max-width: 800px;
+  max-width: 600px;
   margin:auto;
-  margin-top: 500px;
+  margin-top: 25px;
   margin-bottom: 10px;
 }
 }
@@ -92,7 +80,7 @@ font-family: 'Libre Baskerville', serif;
 table {
     font-family: 'century gothic', sans-Serif;
     border-collapse: collapse;
-    max-width: 800px;
+    max-width: 600px;
     margin:auto;
     margin-top: 25px;
     margin-bottom: 25px;
@@ -117,6 +105,16 @@ blockquote{
   font-weight: bold;
 }
 
+.box{
+  background-color: #c6c6c8;
+  border: 1px solid black;
+  padding-left: 8px;
+  padding-right: 8px;
+  text-align:left;
+
+}
+
+
 .data{
   background-color: lightgrey;
     width: 900px;
@@ -131,6 +129,6 @@ blockquote{
   color: white;
 }
 #columns{
-  text-align: center;
   padding-bottom: 40px;
+  text-align: justify;
 }
