@@ -30,6 +30,11 @@
   height:500px;
 }
 
+
+.caption{
+  font-size: 10px;
+  font-family: 'Libre Baskerville', serif;
+}
 .text{
   font-family: "century gothic", sans-serif;;
 }
