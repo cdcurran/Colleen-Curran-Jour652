@@ -1,3 +1,8 @@
+body{
+  background-color: white;
+  background-image: linear-gradient(#e4e3e6, #ffffff);
+}
+
 #container{
   max-width: 1000px;
   width: 100%;
@@ -92,13 +97,13 @@ table {
 }
 
 td, th {
-    border: 1px solid #dddddd;
+    border: 1.5px solid black;
     text-align: left;
     padding: 8px;
 }
 
 tr:nth-child(even) {
-    background-color: #dddddd;
+    background-color: #ffffff;
 }
 
 blockquote{
@@ -112,7 +117,7 @@ blockquote{
 
 .box{
   background-color: #c6c6c8;
-  border: 1px solid black;
+  border: 1.5px solid black;
   padding-left: 8px;
   padding-right: 8px;
   text-align:left;
@@ -123,7 +128,7 @@ blockquote{
   padding: 25px;
   font-family: 'Libre Baskerville', serif;
   font-size: 13px;
-  border: 1px solid black;
+  border: 1.5px solid black;
   text-align: center;
   width: 100%;
   max-width: inherit;
