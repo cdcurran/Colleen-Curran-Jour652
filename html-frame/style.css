@@ -1,6 +1,6 @@
 body{
   background-color: white;
-  background-image: linear-gradient(#e4e3e6, #ffffff);
+  background-image: linear-gradient(#bbbbbc, #ffffff);
 }
 
 #container{
@@ -107,7 +107,7 @@ tr:nth-child(even) {
 }
 
 blockquote{
-  background: #f9f9f9;
+  background: #f4f2f2;
   border-left: 20px solid #1b2f61;
   margin: 1.5em 15px;
   padding: .5em 10px;
@@ -117,7 +117,7 @@ blockquote{
 }
 
 .box{
-  background-color: #c6c6c8;
+  background-color: #c5c7c7;
   border: 1.5px solid black;
   padding-left: 8px;
   padding-right: 8px;
