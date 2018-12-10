@@ -35,7 +35,6 @@ body{
   height:500px;
 }
 
-
 .caption{
   font-size: 10px;
   font-family: 'Libre Baskerville', serif;
@@ -44,11 +43,9 @@ body{
   font-family: "century gothic", sans-serif;;
 }
 
-
 .byline{
-font-size: 12px;
+  font-size: 12px;
 }
-
 
 .chart{
   max-width: 600px;
@@ -63,30 +60,26 @@ font-size: 12px;
   margin-top: 25px;
   margin-bottom: 10px;
 }
-}
 
 .img{
   margin:0 auto;
   width:500px;
   height: 500px;
   padding-top: 15px;
-color: grey;
+  color: grey;
 }
-
 
 .introtext{
-font-family: 'Libre Baskerville', serif;
-font-size: 1em;
-max-width: 800px;
-margin:auto;
-margin-top: 25px;
-margin-bottom: 25px;
-font-weight: bold;
-font-family: 'Libre Baskerville', serif;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 1em;
+    max-width: 800px;
+    margin:auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-weight: bold;
+    font-family: 'Libre Baskerville', serif;
 }
-
-
-
+/*Table*/
 table {
     font-family: 'century gothic', sans-Serif;
     border-collapse: collapse;
@@ -105,23 +98,24 @@ td, th {
 tr:nth-child(even) {
     background-color: #ffffff;
 }
+/*End Table*/
 
 blockquote{
-  background: #ffffff;
-  border-left: 20px solid #1b2f61;
-  margin: 1.5em 15px;
-  padding: .5em 10px;
-  font-family: 'Libre Baskerville', serif;
-  font-weight: bold;
-  color: #1b2f61;
+    background: #ffffff;
+    border-left: 20px solid #1b2f61;
+    margin: 1.5em 15px;
+    padding: .5em 10px;
+    font-family: 'Libre Baskerville', serif;
+    font-weight: bold;
+    color: #1b2f61;
 }
 
 .box{
-  background-color: #c5c7c7;
-  border: 1.5px solid black;
-  padding-left: 8px;
-  padding-right: 8px;
-  text-align:left;
+    background-color: #c5c7c7;
+    border: 1.5px solid black;
+    padding-left: 8px;
+    padding-right: 8px;
+    text-align:left;
 }
 
 figure {
@@ -133,7 +127,6 @@ figure {
     padding-right: 10px;
     padding-top:10px;
     border: 1.5px solid black;
-
 }
 
 .data{
@@ -153,6 +146,7 @@ figure {
   background-color: black;
   color: white;
 }
+
 #columns{
   padding-bottom: 40px;
   text-align: justify;
