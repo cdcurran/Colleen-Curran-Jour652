@@ -32,14 +32,30 @@
 
   <!-- graphic container-->
 <div class="graphic-container">
- <h2>Lyme Disease from 1990-2016, Maryland</h2>
+ <h2>Lyme disease from 1990-2016, Maryland</h2>
  <p>Numbers include confirmed, suspected and probable cases in Maryland between 1990 and 2016.</p>
  <div id="myLineChart"></div>
  <em>Source: Maryland Department of Public Health</em>
 </div>
 <!-- END first graphic container-->
+
+<P></P>
+
+<!-- graphic container-->
+<div class="graphic-container">
+<h2>Reported Lyme disease cases nationwide, 2017</h2>
+<p>Numbers include confirmed and probable cases, sorted by region in the U.S., not including territories. Maryland had the highest amount of Lyme disease numbers in 2017 in the South Atlantic region with 1,891.</p>
+<div id="myLineChart2"></div>
+<em>Source: Centers for Disease Control and Prevention</em>
+</div>
+<!-- END second graphic container-->
+
+
+
 </div>
 <!--End Container-->
+
+
 
 
 
@@ -80,6 +96,30 @@ var chart = c3.generate({
        pattern: ['#2a8dc5', '#455380', '#ee6a4b', '#60c4b2', '#973895']
      }
    });
+
+//CHART 2
+
+var chart2 = c3.generate({
+ bindto: '#myLineChart2',
+ data: {
+   columns: [
+     ['New England', 7916],
+     ['Middle Atlantic', 22147],
+     ['East North Central', 3976],
+     ['West North Central', 2707],
+     ['South Atlantic', 5422],
+     ['East South Central', 109],
+     ['West South Central', 77],
+     ['Mountain', 113],
+     ['Pacific', 276]
+   ],
+   type: 'bar'
+ },
+ color: {
+   pattern: ['#2a8dc5', '#455380', '#ee6a4b', '#60c4b2', '#973895', '#fae255', '#af3d46', '#f8bb63', '#818281']
+ }
+});
+
 
 </script>
 
