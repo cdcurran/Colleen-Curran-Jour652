@@ -1,0 +1,127 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>Bicycle Fatalities and Crash Numbers, Maryland</title>
+  <meta name="description" content="Merrill College of Journalism, UMD">
+  <meta name="author" content="Colleen Curran">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+
+  <!-- Load c3.css -->
+     <link href="https://cdnjs.cloudflare.com/ajax/libs/c3/0.6.8/c3.min.css" rel="stylesheet">
+
+     <!-- Load our CSS -->
+     <link rel="stylesheet" href="style.css">
+
+     <!-- Load d3.js and c3.js -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.7.0/d3.min.js" charset="utf-8"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/c3/0.6.8/c3.min.js"></script>
+
+</head>
+<body>
+
+
+  <!--Container-->
+<div class="container">
+
+
+  <!-- graphic container-->
+<div class="graphic-container">
+ <h2>Crashes, Maryland</h2>
+ <p>Numbers includes the total amount of bicycle crashes in Maryland from 2013 to 2017</p>
+ <div id="myLineChart"></div>
+ <em>Source: Maryland DOT, Maryland Vehicle Administration</em>
+</div>
+<!-- END first graphic container-->
+
+<P></P>
+
+<!-- graphic container-->
+<div class="graphic-container">
+<h2>Maryland fatality rates, 2014-2016</h2>
+<p>Numbers show Fatality Analysis Reporting System data for vehicle caused cycling deaths between 2014 and 2016 in Maryland.</p>
+<div id="myLineChart2"></div>
+<em>Source: Fatality Analysis Reporting System</em>
+</div>
+<!-- END second graphic container-->
+
+
+
+</div>
+<!--End Container-->
+
+
+
+
+
+<!--Footer-->
+<div class="footer">
+  <footer><center>
+    <p></p>
+    <p>&copy 2019 Colleen Curran</p>
+    </center>
+  </footer>
+</div>
+<!--end footer-->
+
+
+
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+
+
+
+
+
+<script type="text/javascript">
+//CHART 1
+
+var chart = c3.generate({
+     bindto: '#myLineChart',
+     data: {
+       x: 'x',
+       columns: [
+         ['x',  2013, 2014, 2015, 2016, 2017],
+         ['Number of incidents in Maryland', 724, 801, 841, 851, 864],
+       ]
+     },
+     color: {
+       pattern: ['#2a8dc5', '#455380', '#ee6a4b', '#60c4b2', '#973895']
+     }
+   });
+
+//CHART 2
+
+var chart2 = c3.generate({
+ bindto: '#myLineChart2',
+ data: {
+   columns: [
+     ['2014', 9],
+     ['2015', 14],
+     ['2016', 19]
+   ],
+   type: 'bar'
+ },
+ color: {
+   pattern: ['#2a8dc5', '#455380', '#ee6a4b', '#60c4b2', '#973895', '#fae255', '#af3d46', '#f8bb63', '#818281']
+ }
+});
+
+
+</script>
+
+
+
+
+
+
+
+</body>
+</html>
