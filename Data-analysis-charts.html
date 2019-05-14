@@ -32,7 +32,7 @@
 
   <!-- graphic container-->
 <div class="graphic-container">
- <h2>Crashes, Maryland</h2>
+ <h2>Total Bicyle-Vehicle Crashes in Maryland</h2>
  <p>Numbers includes the total amount of bicycle crashes in Maryland from 2013 to 2017</p>
  <div id="myLineChart"></div>
  <em>Source: Maryland DOT, Maryland Vehicle Administration</em>
@@ -43,7 +43,7 @@
 
 <!-- graphic container-->
 <div class="graphic-container">
-<h2>Maryland fatality rates, 2014-2016</h2>
+<h2>Maryland fatality rates, 2010-2016</h2>
 <p>Numbers show Fatality Analysis Reporting System data for vehicle caused cycling deaths between 2014 and 2016 in Maryland.</p>
 <div id="myLineChart2"></div>
 <em>Source: Fatality Analysis Reporting System</em>
@@ -103,6 +103,10 @@ var chart2 = c3.generate({
  bindto: '#myLineChart2',
  data: {
    columns: [
+     ['2010', 13],
+     ['2011', 6],
+     ['2012', 9],
+     ['2013', 8],
      ['2014', 9],
      ['2015', 14],
      ['2016', 19]
